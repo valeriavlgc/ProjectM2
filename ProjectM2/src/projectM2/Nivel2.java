@@ -64,6 +64,6 @@ int numero = sc.nextInt();
 	   System.out.println(); 
 	   
    }
-  // System.out.println(espacio + "*"); 
+
 }
 }
