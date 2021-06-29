@@ -42,8 +42,7 @@ int numero = sc.nextInt();
 		
 	    }
 		
-		   //System.out.println(numero); 
-//Versión erronea con los cambios comentados + iniciando i, j en 1. 
+ 
 	
 }	
 public static void piramide(){
@@ -53,7 +52,7 @@ String espacio = "";
 System.out.println("Introduce un número:");
 int numero = sc.nextInt();
 	
-   for (int i = numero; i > 0; i--) {
+   for (int i = numero - 1; i > 0; i--) {
 	System.out.print(espacio);
 	  for (int j = 0; j < i; j++) {
 		  System.out.print('*');
@@ -65,6 +64,6 @@ int numero = sc.nextInt();
 	   System.out.println(); 
 	   
    }
-
+  // System.out.println(espacio + "*"); 
 }
 }
